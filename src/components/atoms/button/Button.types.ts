@@ -1,16 +1,15 @@
 import { MouseEventHandler } from "react";
 
-export enum ButtonType {
-    BUTTON = "button",
-    RESET = "reset",
-    SUBMIT = "submit"
+export enum BUTTON_TYPE {
+    Button = "button",
+    Reset = "reset",
+    Submit = "submit"
 }
 
 export interface ButtonProps {
     className?: string;
     disabled?: boolean;
-    name?: string;
-    onClick?: MouseEventHandler<HTMLButtonElement>;
+    onClick: MouseEventHandler<HTMLButtonElement>;
     text?: string;
-    type: ButtonType;
+    type: BUTTON_TYPE;
 }

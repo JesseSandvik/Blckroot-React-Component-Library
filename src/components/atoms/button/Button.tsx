@@ -4,7 +4,6 @@ import { ButtonProps } from "./Button.types";
 function Button ({
     className,
     disabled,
-    name,
     onClick,
     text,
     type
@@ -13,7 +12,6 @@ function Button ({
         <button
             className={className}
             disabled={disabled}
-            name={name}
             onClick={onClick}
             type={type}>
                 {text}
