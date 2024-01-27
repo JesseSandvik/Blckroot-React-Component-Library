@@ -2,16 +2,22 @@ import React from "react";
 import { ButtonProps } from "./Button.types";
 
 function Button ({
+    className,
     disabled,
+    name,
     onClick,
-    text
+    text,
+    type
 }: ButtonProps): React.ReactElement<ButtonProps> {
     return (
         <button
+            className={className}
             disabled={disabled}
-            onClick={onClick}>
-            {text}
-        </button>
+            name={name}
+            onClick={onClick}
+            type={type}>
+                {text}
+            </button>
     );
 }
 
