@@ -34,9 +34,9 @@ SF:src/components/atoms/heading/Heading.tsx
 FN:4,Heading
 FNF:1
 FNH:1
-FNDA:1,Heading
+FNDA:3,Heading
 DA:1,1
-DA:5,1
+DA:5,3
 DA:8,1
 LF:3
 LH:3

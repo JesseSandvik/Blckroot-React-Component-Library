@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1706466830049" clover="3.2.0">
-  <project timestamp="1706466830049" name="All files">
+<coverage generated="1706467353662" clover="3.2.0">
+  <project timestamp="1706467353663" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="25" coveredelements="25" complexity="0" loc="17" ncloc="17" packages="2" files="4" classes="4"/>
     <package name="button">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
@@ -23,7 +23,7 @@
       <file name="Heading.tsx" path="/Users/jsandvik/Projects/Blckroot-React-Component-Library/src/components/atoms/heading/Heading.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
       <file name="Heading.types.ts" path="/Users/jsandvik/Projects/Blckroot-React-Component-Library/src/components/atoms/heading/Heading.types.ts">
